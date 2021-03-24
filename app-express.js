@@ -7,6 +7,8 @@ app.get('/welcome', (req, res) => {
   res.send('Bienvenue !')
 });
 
+app.use('/equipe', express.static('equipe'));
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
