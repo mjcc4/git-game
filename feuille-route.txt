@@ -1,0 +1,12 @@
+Feuille de route
+
+0. Démarrer le projet ExpressJS
+Il contient une ressource /welcome qui dit bienvenue
+
+1. 1er exo : commiter sa description de profil dans /equipe (chaque dev commit des fichiers différents)
+
+2. Chaque dev doit créer une ressource /welcome/devX qui renvoie Bienvenue DEVX !
+Ca permettra d'initier les gens à une 1ere resolution de conflit
+
+A suivre :
+workflow avec branches
