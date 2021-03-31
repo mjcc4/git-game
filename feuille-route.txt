@@ -8,5 +8,14 @@ Il contient une ressource /welcome qui dit bienvenue
 2. Chaque dev doit créer une ressource /welcome/devX qui renvoie Bienvenue DEVX !
 Ca permettra d'initier les gens à une 1ere resolution de conflit
 
+3. Refaire la même chose avec des branches (1 branche diffrente par dev par ex.)
+On voit que le comportement des résolution de conflit sera le même car Git a manipulé 
+"differentes branches master".
+
 A suivre :
-workflow avec branches
+Trouver comment simuler une intégration continue et le Git workflow
+
+Réécrire l'histoire
+Les git rebase, le reset (hard, soft, ...)
+> priviliégier le pull rebase, ...
+
