@@ -12,10 +12,36 @@ Ca permettra d'initier les gens à une 1ere resolution de conflit
 On voit que le comportement des résolution de conflit sera le même car Git a manipulé 
 "differentes branches master".
 
-A suivre :
-Trouver comment simuler une intégration continue et le Git workflow
+II. Le Git workflow
+Pas trouvé comment simuler une intégration continue
+A la place, on va simuler une problématique avec des partenaires imaginaires pour la ressource panier.
+Au début, on crée une resource avec le json panier1.
+On a maintenant besoin d'une resource différente, 
+mais on veut garder un environnement avec panier1 opérationnel pour corriger les anos de prod
+et en attendant que le partenaire soit pret.
 
-Réécrire l'histoire
-Les git rebase, le reset (hard, soft, ...)
+Exo par exemple :
+Ano de prod : on a oublié les patates ! Il faut ajouter une resource patate entre carotte et chaussure dans le panier
+Evol : en fait on veut plus nom, mais libelle (synchro partenaire)
+Evol : doit faire une evol sur les nouveaux codes produit du panier (synchro partenaire)
+
+Si on trouve tant mieux sinon tant pis : comment simuler une intégration continue
+
+III. Réécrire l'histoire
+Faire un commit boulet qui supprime tout
+Exo : pousser un rollback
+
+Facultatif selon timing
+Faire un commit avec des merges pourris, histoire d'avoir un rollback de merge à faire
+Constater que c'est galère car il faut rollback 2 fois
+
+Présenter le reset --hard
+
+Conventions sur le workflow de l'arbre
+Ex : eviter les merges au sein de la meme branche
+
+Pb : Comment éviter les merges auto quand on fait un pull
+Soluce : Le rebase !
 > priviliégier le pull rebase, ...
 
+Egalement utile pour réécrire une branche ailleurs

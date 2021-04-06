@@ -1,0 +1,12 @@
+[{
+    "libelle": "carotte",
+    "code": "FRLCARO01",
+    "quantite": 5,
+    "prix": 4
+},
+{
+    "libelle": "chaussures",
+    "code": "VETCHAU01",
+    "quantite": 1,
+    "prix": 35
+}]

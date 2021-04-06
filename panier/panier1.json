@@ -1,0 +1,12 @@
+[{
+    "nom": "carotte",
+    "code": "FRLGCAR01",
+    "quantite": 5,
+    "prix": 4
+},
+{
+    "nom": "chaussures",
+    "code": "VETMCHA01",
+    "quantite": 1,
+    "prix": 35
+}]
